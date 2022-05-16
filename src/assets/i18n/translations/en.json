@@ -1,0 +1,16 @@
+{
+  "Username": "UserName or Email",
+  "Password": "Password",
+  "Login": "Login",
+  "Categories": "categories",
+  "Search": "Search",
+  "Target version": "Target version",
+  "Project Name": "Project Name",
+  "Status": "Status",
+  "Trackers": "Trackers",
+  "Order By": "Order By",
+  "Apply": "Apply",
+  "Total Estimated time": "Total Estimated time",
+  "Total Spent time": "Total Spent time",
+  "Done": "Done"
+}

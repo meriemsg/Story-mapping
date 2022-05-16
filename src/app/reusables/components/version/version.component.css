@@ -1,0 +1,172 @@
+
+.accordion > .card {
+  width: fit-content;
+}
+
+.coin-plie {
+  position: relative;
+  width: 14em;
+  padding: 5px 5px;
+  color: rgb(3, 0, 0);
+  background: #f4f29b;
+}
+
+.coin-plie:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #F7F7F7 #F7F7F7 #f4f29b #f4f29b;
+  background: #C4D7ED;
+  display: block;
+  width: 0;
+  -webkit-box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+  -moz-box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+  box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+}
+
+p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.estimated_feature {
+  background-color: #fbf8c4;
+
+  padding: 5px;
+  font-weight: 300;
+  box-shadow: 3px 3px #d7dce0;
+  color: black;
+}
+
+.category{
+  background-color: #d7dce0;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  border-radius: 8%;
+}
+
+
+.coin-plie-category {
+  position: relative;
+  width: 20em;
+  padding: 5px 5px;
+  color: rgb(3, 0, 0);
+  background: #f4f29b;
+}
+
+.coin-plie-category:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #d7dce0 #d7dce0 #f4f29b #f4f29b;
+  background: #C4D7ED;
+  display: block;
+  width: 0;
+  -webkit-box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+  -moz-box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+  box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+
+}
+
+.section-heading {
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.example-container {
+  width: 27em;
+  max-width: 100%;
+  margin-right: 2.5em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.drag-container {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 25px 25px 0;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 5px;
+
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.item-list.cdk-drop-list-dragging .item-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-list {
+  width: 500px;
+  max-width: 100%;
+  border: solid 1px #ccc;
+  min-height: 60px;
+  display: block;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.example-box {
+  border-bottom: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: move;
+  background: white;
+  font-size: 14px;
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.example-box:last-child {
+  border: none;
+}
+
+.example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+.ng-template-sprint{
+  width: 2000px !important;
+}
+

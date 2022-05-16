@@ -1,0 +1,7 @@
+<app-main-menu [User]="user"></app-main-menu>
+<app-search [data_placer]="'search'" [disabled_search]="false"
+            (projectNameData)="projectNameData= $event"></app-search>
+<app-projects  [projects]="projects" [projectNameData]="projectNameData"></app-projects>
+
+
+

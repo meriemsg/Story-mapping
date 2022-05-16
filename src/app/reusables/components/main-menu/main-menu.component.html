@@ -1,0 +1,16 @@
+
+<nav id="navbar" class="navbar bg-primary">
+  <div class="container-fluid d-flex justify-content-end">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+        {{User}}
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a routerLink="/home" class="dropdown-item" >Home</a>
+        <a class="dropdown-item" (click)="onSubmit()">Log out</a>
+      </div>
+    </div>
+  </div>
+</nav>
+

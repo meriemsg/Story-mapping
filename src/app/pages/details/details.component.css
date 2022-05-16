@@ -1,0 +1,24 @@
+.coin-plie {
+  position: relative;
+  width: 240px;
+  padding: 16px 24px;
+  margin: 32px auto;
+  color: rgb(3, 0, 0);
+  background: #f4f29b;
+}
+
+.coin-plie:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #fff #fff #f4f29b #f4f29b;
+  background: #C4D7ED;
+  display: block;
+  width: 0;
+  -webkit-box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+  -moz-box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+  box-shadow: 0 1px 1px #fff, -1px 1px 1px #fff;
+}

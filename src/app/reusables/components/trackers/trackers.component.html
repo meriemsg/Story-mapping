@@ -1,0 +1,11 @@
+<h3 style="color: dimgrey;" class="mx-5"> {{'Trackers'|translate}}  </h3>
+<div class="mx-5 d-flex">
+  <div style="margin-right:40px;" *ngFor="let i of arrayDataTrackers">
+    <input class="form-control-inline" type="checkbox" name="tracker" [(ngModel)]="i.isChecked"
+           value="{{i.id}}" (change)="getSelectedTrackers()"
+           id="inlineCheckbox1" value="option1">
+    <label class="form-check-label mx-2 " for="inlineCheckbox1">
+      {{i.name}}
+    </label>
+  </div>
+</div>

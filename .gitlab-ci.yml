@@ -1,0 +1,29 @@
+stages:
+  - build
+  - deploy
+
+build-angular:
+  stage: build
+  interruptible: true
+  script:
+    - npm install
+    - export NODE_OPTIONS="--max-old-space-size=8192"
+    # build the project
+    - ng build --prod --output-path=dist/build --base-href "http://46.30.189.7/storymap/"
+  cache:
+    paths:
+      - node_modules/
+  artifacts:
+    when: on_success
+    paths:
+      - dist/build
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "dev-master"'
+
+deploy-web:
+  stage: deploy
+  only:
+    - dev-master
+  script:
+    - mkdir -p /var/www/html/storymap
+    - rsync -r dist/build/ /var/www/html/storymap

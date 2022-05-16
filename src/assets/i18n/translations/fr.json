@@ -1,0 +1,18 @@
+{
+  "Username": "Nom d'utilisateur ou Email",
+  "Password": "Mot De Passe",
+  "Login": "Connexion",
+  "Categories": "categories",
+  "Search": "Rechercher",
+  "Target version": "Version cible",
+  "Project Name": "Nom Projet",
+  "Status": "Statue",
+  "Trackers": "Type",
+  "Order By": "Ordonné par",
+  "Apply": "Appliquer",
+  "Total Estimated time": "Temps total estimé",
+  "Total Spent time": "Temps passé total",
+  "Done": "Terminer",
+  "Estimated time": "Temps total estimé",
+  "Spent time": "Temps passé total"
+}

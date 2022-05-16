@@ -1,0 +1,15 @@
+.select2-container {
+  border: 1px solid red !important;
+}
+
+.select2.custom {
+  border: 0px;
+  min-height: 0px;
+  border-radius: 0;
+  background-color: red;
+}
+
+.select2.custom .select2-container {
+  min-height: 0px;
+  border-radius: 0;
+}

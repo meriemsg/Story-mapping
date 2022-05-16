@@ -1,0 +1,36 @@
+{
+  "arrayColors": [
+    {
+      "color": "gray",
+      "code": "#8f8d8d"
+    },
+    {
+      "color": "purple",
+      "code": "#cb12cb"
+    },
+    {
+      "color": "salmon",
+      "code": "#f5c2a2"
+    },
+    {
+      "color": "yellow",
+      "code": "#dbdb42"
+    },
+    {
+      "color": "orange",
+      "code": "#f18b25"
+    },
+    {
+      "color": "chartreuse",
+      "code": "#87e52a"
+    },
+    {
+      "color": "teal",
+      "code": "#24d485"
+    },
+    {
+      "color": "red",
+      "code": "#e90a10"
+    }
+  ]
+}

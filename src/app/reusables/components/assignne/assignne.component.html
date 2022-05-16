@@ -1,0 +1,10 @@
+<div class="my-3 mx-5">
+  <h3 class="text-muted lead">{{'Assignee'|translate}}</h3>
+  <div class="row mx-1">
+    <ng-select2 [data]="memberships"
+                [options]="options"
+                [(ngModel)]="value"
+                placeholder="{{'Search'|translate}}">
+    </ng-select2>
+  </div>
+</div>

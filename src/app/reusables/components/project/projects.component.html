@@ -1,0 +1,11 @@
+<div class="container  p-4" >
+  <div class="father">
+  <div class="m-3 child "  style="height: fit-content; background-color: #F5F5F5" *ngFor=" let project of map | keyvalue">
+    <div class=" m-3 "><b> <a [routerLink]="['/project',project.key]" style="color:#3E5B76">
+      {{getProjectFromId(project.key)?.name}}</a></b></div>
+    <div class=" m-3  " *ngFor="let subProject of project?.value"> {{subProject?.name}}</div>
+  </div>
+  </div>
+  </div>
+
+

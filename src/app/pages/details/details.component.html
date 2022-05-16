@@ -1,0 +1,26 @@
+<app-main-menu [User]="user"></app-main-menu>
+<app-search (projectNameData)="ReceiptData($event)" [data_placer]="project.name"
+            [disabled_search]="true"></app-search>
+<app-assignne (usersData)="ReceiptUsers($event)"></app-assignne>
+<app-priority (prioritiesData)="ReceiptPriorities($event)"></app-priority>
+<app-status (selected_status)="ReceiptStatus($event)"></app-status>
+<app-trackers (selected_trackers)="ReceiptTrackers($event)"></app-trackers>
+<div class="row mx-3 my-4">
+  <app-dropdown (order_by)="ReceiptOrder($event)" class="col-md-3"></app-dropdown>
+  <app-targetversion (target_version_data)="ReceiptVersion($event)" class="col-md-3"></app-targetversion>
+  <app-categorie (categoriesData)="ReceiptCategories($event)" class="col-md-6"></app-categorie>
+
+</div>
+<app-options></app-options>
+<div class="form-group d-flex  mx-5 ">
+  <button type="submit" (click)="apply()"
+          class="btn btn-primary  btn-lg mt-4 ">
+    {{'Apply'|translate}}</button>
+</div>
+<app-version [versions]="versions"
+             [issue_categories]="issue_categories"
+             [infoFilter]="infoFilter"></app-version>
+
+
+
+
