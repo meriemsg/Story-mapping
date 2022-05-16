@@ -54,3 +54,5 @@ or comments on a task.
 `https://docs.docker.com/get-docker/`
 4. install image Redmine of docker 
 `https://hub.docker.com/_/redmine`
+5. Run the below command in your terminal
+`ng serve`
