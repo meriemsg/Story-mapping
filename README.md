@@ -47,8 +47,10 @@ or comments on a task.
 
 ## Installation
 1. install nodejs 
-https://www.npmjs.com/package/node-modules
+`https://www.npmjs.com/package/node-modules`
 2. install Angular
-https://bit.ly/3MkmGqB
+`https://bit.ly/3MkmGqB`
 3. install docker
-https://docs.docker.com/get-docker/
+`https://docs.docker.com/get-docker/`
+4. install image Redmine of docker 
+`https://hub.docker.com/_/redmine`
